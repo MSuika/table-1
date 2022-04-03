@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+h2 {
+    margin: 30px auto;
+    text-align: center;
+}
+.table-1 table {
+    border: 2px solid #FFD124;
+    border-collapse: collapse;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+table {
+    margin: 30px auto;
+    max-width: 600px;
+    border-collapse: collapse;
+}
+
+.table-1 td {
+    background: #382c6e;
+    color: white;
+    border: 2px solid #FFD124;
+    padding: 10px;
+    width: 150px;
+    font-family: montserrat;
+    font-size: 1em;
+}
+
+.table-1 th {
+    background-color: #fec107;
+    border: 2px solid #fec107;
+    padding: 10px;
+    width: 150px;
+    font-family: montserrat;
+}
+
+.table-1 th:nth-child(2) {
+    background: #e5ae30;
+}
+
+.table-2 table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.table-2 th {
+    font-family: 'Times New Roman', Times, serif;
+    background: #86006f;
+    color: white;
+    border: 2px solid white;
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-2 td {
+    background: #f37ecf;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.table-2 tr:nth-child(odd) td {
+    background: #af5593;
+}
+
+.table-3 table {
+    border: 2px solid black;
+    font-family: montserrat;
+    background: white;
+}
+
+.table-3 th {
+    text-align: left;
+    border: 2px solid black;
+    padding-right: 30px;
+    padding-left: 5px;
+    font-family: montserrat;
+}
+
+.table-3 td {
+    border: 2px solid black;
+    padding-right: 30px;
+    padding-left: 5px;
+}
+
+.table-3 tr:last-child td{
+    background: #16c03b;
+    color: white;
+}
+
+.table-3 tr:nth-last-child(2) td{
+    background: #4f4fff;
+    color: white;
+}
+
+.table-3 tr:nth-last-child(3) td{
+    background: #fea500;
+    color: white;
+}
+
+/* 4 lentelė */
+
+.table-4 table {
+    background: white;
+    max-width: 150px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+
+.table-4 td {
+    border: 15px solid #2cd64d;
+    background: #f05712;
+    color: #f05712;
+    padding: 5px;
+}
+
+.table-4 tr {
+    margin: 10px;
+    border-collapse: separate;
+}
+
+.test-1 td {
+    border: 10px solid white;
+}
+/* #2cd64d; #f05712 */
+/* .table-4 td:nth-last-child(odd) {
+    border: 10px solid #f05712;
+    background: #2cd64d;
+} */
